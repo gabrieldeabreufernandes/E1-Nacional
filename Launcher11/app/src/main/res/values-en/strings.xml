@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E1-Launcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_app">AppActivity</string>
+
+    <string name="pswTitle">Insert Password</string>
+    <string name="pswHint">Password</string>
+    <string name="pswErr">Invalid Password!</string>
+    <string name="updateFilesUSB">Updating files from USB...</string>
+    <string name="updateOK">Update completed!</string>
+    <string name="updateERR">Could not update the files!</string>
+    <string name="launcherConfigNotSet">The launcher configuration is not set! Default configuration was created.</string>
+    <string name="updateWait">Wait...</string>
+    <string name="updateUpdatingFiles">Updating files</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device
+        vendor-id="2385"
+        product-id="5639" />
+</resources><!-- From: file:/C:/Users/Actia/git/E1-Nacional/Launcher11/app/src/main/res/xml/device_filter.xml -->

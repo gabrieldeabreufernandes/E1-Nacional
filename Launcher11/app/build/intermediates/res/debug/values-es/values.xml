@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Actia/git/E1-Nacional/Launcher11/app/src/main/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Configuración</string>
+    <string name="app_name">E1-Launcher</string>
+    <string name="launcherConfigNotSet">La configuracion del launcher no esta setada! Creada configuración predeterminada.</string>
+    <string name="pswErr">Contraseña no válida!</string>
+    <string name="pswHint">Contraseña</string>
+    <string name="pswTitle">Introducir la contraseña</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="updateERR">No se pudo actualizar los archivos!</string>
+    <string name="updateFilesUSB">Actualización de archivos a través de USB...</string>
+    <string name="updateOK">Actualización completa!</string>
+    <string name="updateUpdatingFiles">Actualización de archivos</string>
+    <string name="updateWait">Espera...</string>
+</resources>

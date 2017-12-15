@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.NoTitleBar" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/frameVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:background="@color/Black"
+            android:orientation="vertical" >
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bannerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:visibility="gone"/>
+                <LinearLayout
+                    android:id="@+id/rssView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/White"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/rssImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingBottom="0dp">
+
+                        <TextView
+                            android:id="@+id/txtTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/Black"
+                            android:textSize="25sp"
+                            android:layout_gravity="top"/>
+                        <TextView
+                            android:id="@+id/txtContent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/Black"
+                            android:textSize="20sp"
+                            android:layout_gravity="center_vertical"/>
+                        <TextView
+                            android:id="@+id/txtDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/Blue"
+                            android:textSize="20sp"
+                            android:layout_gravity="bottom"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/busStopAlertLayout"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/White">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:id="@+id/imageView2"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="New Text"
+                        android:gravity="center_vertical"
+                        android:id="@+id/textView"
+                        android:background="@color/White"/>
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <DigitalClock
+                android:id="@+id/digitalClock1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/txtRouteName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="top|center"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ExpandableListView
+                android:id="@+id/listRoute"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2.26"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="0dp"
+                android:groupIndicator="@null">
+            </ExpandableListView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

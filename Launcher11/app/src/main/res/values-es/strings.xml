@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E1-Launcher</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_app">AppActivity</string>
+
+    <string name="pswTitle">Introducir la contraseña</string>
+    <string name="pswHint">Contraseña</string>
+    <string name="pswErr">Contraseña no válida!</string>
+    <string name="updateFilesUSB">Actualización de archivos a través de USB...</string>
+    <string name="updateOK">Actualización completa!</string>
+    <string name="updateERR">No se pudo actualizar los archivos!</string>
+    <string name="launcherConfigNotSet">La configuracion del launcher no esta setada! Creada configuración predeterminada.</string>
+    <string name="updateWait">Espera...</string>
+    <string name="updateUpdatingFiles">Actualización de archivos</string>
+</resources>

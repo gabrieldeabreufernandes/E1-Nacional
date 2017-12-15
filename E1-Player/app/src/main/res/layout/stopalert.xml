@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/busStopLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/frameImg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frameVideoStopAlert"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/videoViewStopAlert"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frameBanner"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:alpha="80"
+        android:background="@color/TransparentWhite"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:padding="3dp">
+        <!--<TextView
+            android:id="@+id/busStopBanner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:textSize="20sp"/>-->
+        <ExpandableListView
+            android:id="@+id/busStopBanner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingRight="0dp"
+            android:groupIndicator="@null"
+            android:listSelector="@android:color/transparent">
+        </ExpandableListView>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:gravity="top|fill_horizontal"
+    android:orientation="vertical"
+    tools:context="br.com.actia.e1nplayer.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageRoute"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:src="@drawable/marker" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <SearchView
+                android:id="@+id/searchRoute"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="top|fill_horizontal"
+                android:gravity="center"
+                android:iconifiedByDefault="false"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="text"
+                android:queryHint="@string/route_choose"
+                android:textSize="40sp" >
+            </SearchView>
+
+            <ListView
+                android:id="@+id/listRoute"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1" >
+            </ListView>
+        </LinearLayout>
+
+        <DigitalClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="top|right"
+            android:layout_marginRight="0dp"
+            android:gravity="right"
+            android:text="DigitalClock"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</LinearLayout>

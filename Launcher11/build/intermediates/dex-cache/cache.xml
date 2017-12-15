@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Actia\git\E1-Nacional\Launcher11\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b8fa6a3fdf94242b78000008b7d2b7447e57a13f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Actia\git\E1-Nacional\Launcher11\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Actia\git\E1-Nacional\Launcher11\app\build\intermediates\pre-dexed\debug\gson-2.2.4-c81fe5def79ee46aaa707f1e15c289201869929d.jar" />
+    </item>
+
+</items>

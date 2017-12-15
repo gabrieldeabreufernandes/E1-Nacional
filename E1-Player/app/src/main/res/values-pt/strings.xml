@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E1-Player</string>
+    <string name="action_settings">Configurações</string>
+    <string name="route_choose">Escolha uma rota</string>
+    <string name="err_invalid_path">Caminho do arquivo inválido</string>
+    <string name="nextBusStop">Próxima parada: </string>
+    <string name="busStop">Terminal: </string>
+    <string name="titleDialogGooglePlayServicesDownload">Download do Google Play Services</string>
+    <string name="messageDialogGooglePlayServicesDownload">Instale o Google Play Services para o funcionamento do GPS. Você deseja instalar agora?</string>
+    <string name="cancel">Cancelar</string>
+</resources>

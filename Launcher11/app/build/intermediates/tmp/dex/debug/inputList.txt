@@ -1,0 +1,3 @@
+C:\Users\Actia\git\E1-Nacional\Launcher11\app\build\intermediates\classes\debug
+C:\Users\Actia\git\E1-Nacional\Launcher11\app\build\intermediates\pre-dexed\debug\gson-2.2.4-c81fe5def79ee46aaa707f1e15c289201869929d.jar
+C:\Users\Actia\git\E1-Nacional\Launcher11\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-b8fa6a3fdf94242b78000008b7d2b7447e57a13f.jar

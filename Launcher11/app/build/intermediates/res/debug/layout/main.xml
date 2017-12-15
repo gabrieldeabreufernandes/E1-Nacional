@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:id="@+id/FrameLayoutPai">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/LinearLayoutFilho">
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            android:id="@+id/imgLogo"/>
+    </FrameLayout>
+</FrameLayout><!-- From: file:/C:/Users/Actia/git/E1-Nacional/Launcher11/app/src/main/res/layout/main.xml -->
